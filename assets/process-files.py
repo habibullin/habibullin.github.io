@@ -18,6 +18,6 @@ def replace_spaces_in_file(file_path):
 # Примените функцию ко всем нужным файлам
 for root, dirs, files in os.walk('es'):
     for file in files:
-        if file.endswith('.html') or file.endswith('.md'):  # Укажите нужные расширения
+        if file.endswith('.html') or file.endswith('.md'):  # Расширения файлов
             replace_spaces_in_file(os.path.join(root, file))
 
