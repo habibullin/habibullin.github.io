@@ -20,3 +20,4 @@ for root, dirs, files in os.walk('es'):
     for file in files:
         if file.endswith('.html') or file.endswith('.md'):  # Укажите нужные расширения
             replace_spaces_in_file(os.path.join(root, file))
+
