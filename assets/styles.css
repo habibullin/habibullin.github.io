@@ -13,3 +13,7 @@ a, a:visited {
     text-decoration-thickness: 0.5px;
     text-decoration-color: rgba(0, 43, 255, 0.3);
 }
+
+main.es{
+    flex: 1 0 0;
+}
