@@ -1,5 +1,5 @@
 ---
-layout: es.html
+layout: es
 title: Обязательные поля
 ---
 
