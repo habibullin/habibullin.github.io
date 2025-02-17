@@ -17,6 +17,7 @@ a, a:visited {
     margin: 0 2% 0 2%;
 }
 
+
 /* Editorial-standards */
 
 main.es{
@@ -27,6 +28,9 @@ main.es{
     flex: 1 0 0;
 }
 
+.es-toc li.current{
+    background: #ccc;
+}
 
 h1 {
   font-weight: bold;
