@@ -6,7 +6,7 @@ def replace_spaces_in_file(file_path):
         content = file.read()
 
     # Список предлогов и союзов
-    words_to_replace = ['и', 'в', 'на', 'с', 'по', 'к', 'из', 'для', 'от', 'а', 'но']
+    words_to_replace = ['и', 'в', 'на', 'с', 'по', 'к', 'из', 'для', 'от', 'а', 'о', 'но']
     pattern = r'\b(' + '|'.join(words_to_replace) + r')\s+'
     
     # Заменяем пробелы на неразрывные
