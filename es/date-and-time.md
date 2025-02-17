@@ -1,6 +1,6 @@
 ---
 layout: es
-title: Дата и время
+title: Дата &nbsp;и &nbsp;время
 ---
 
 # {{ page.title }}
