@@ -1,7 +1,7 @@
 [Главная](../)
 # Редакционные стандарты
 
-{% include navigation.html %}
+{% include es-nav.html %}
 
 OLD ↓
 - [Обязательные поля](required-fields.md)
