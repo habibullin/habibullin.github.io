@@ -24,7 +24,7 @@ jobs:
 
       - name: Run script
         run: |
-          python assets/process-files.py
+          python assets/text-prepositions-fixer.py
         
       - name: Commit changes
         run: |
