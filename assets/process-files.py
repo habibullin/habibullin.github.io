@@ -1,19 +1,22 @@
 import os
 import re
 
-words_to_replace = ['и', 'в', 'на', 'с', 'по', 'к', 'из', 'для', 'от', 'а', 'но']
-
-def replace_non_breaking_spaces(file_path):
+def replace_spaces_in_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
 
-    for word in words_to_replace:
-        content = re.sub(r'(\s)(' + re.escape(word) + r')', r'\1&nbsp;\2', content)
+    # Список предлогов и союзов
+    words_to_replace = ['и', 'в', 'на', 'с', 'по', 'к', 'из', 'для', 'от', 'а', 'но']
+    pattern = r'\b(' + '|'.join(words_to_replace) + r')\s+'
+    
+    # Заменяем пробелы на неразрывные
+    new_content = re.sub(pattern, lambda m: m.group(0).replace(' ', '\u00A0'), content)
 
     with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(content)
+        file.write(new_content)
 
-for root, dirs, files in os.walk('.'):
+# Примените функцию ко всем нужным файлам
+for root, dirs, files in os.walk('es'):
     for file in files:
-        if file.endswith('.md') or file.endswith('.html'):
-            replace_non_breaking_spaces(os.path.join(root, file))
+        if file.endswith('.html') or file.endswith('.md'):  # Укажите нужные расширения
+            replace_spaces_in_file(os.path.join(root, file))
