@@ -3,7 +3,7 @@ body {
     font-optical-sizing: auto;
 }
 
-a {
+a, a:visited {
     color: rgba(0, 43, 255, 1)
     text-decoration: underline;
     text-decoration-thickness: 0.5px;
