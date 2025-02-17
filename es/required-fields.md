@@ -1,5 +1,5 @@
 ---
-layout: es
+layout: es.md
 ---
 
 # Обязательные поля
