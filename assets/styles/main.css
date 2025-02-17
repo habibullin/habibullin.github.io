@@ -24,6 +24,10 @@ main.es{
     display: flex;
 }
 
+nav{
+    margin:0 0 60px;
+}
+
 .es-content{
     flex: 1 0 0;
 }
