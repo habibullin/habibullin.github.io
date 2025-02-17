@@ -3,6 +3,10 @@ body {
     font-optical-sizing: auto;
 }
 
+body.es{
+    display: flex;
+}
+
 a, a:visited {
     color: rgba(0, 43, 255, 1);
     text-decoration: underline;
