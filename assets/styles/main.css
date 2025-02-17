@@ -1,10 +1,9 @@
 body {
-    font-family: "Inter", Arial, serif;
+    font-family: Inter, Helvetica Neue, Arial, serif;
     font-optical-sizing: auto;
-}
-
-body.es{
-    display: flex;
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 a, a:visited {
@@ -14,6 +13,23 @@ a, a:visited {
     text-decoration-color: rgba(0, 43, 255, 0.3);
 }
 
+.margins{
+    margin: 0 2% 0 2%;
+}
+
+/* Editorial-standards */
+
 main.es{
+    display: flex;
+}
+
+.es-content{
     flex: 1 0 0;
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
 }

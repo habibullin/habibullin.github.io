@@ -6,19 +6,21 @@
     <title>{{ page.title }}</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/styles/es.css' | relative_url }}">
 </head>
-<body class="es">
-    <main class="es">
+<body>
+    <div class="margins">
         <nav>
-          <a href="/es">Редакционные стандарты</a>
+            <a href="/">Рафик Хабибуллин</a>
+            <a href="/es">Редакционные стандарты</a>
         </nav>
-        {{ content }}
-    </main>
-
-    <aside>
-        {% include es-nav.html %}
-    </aside>
-  
+        <main class="es">
+            <div class="es-content">
+                {{ content }}
+            </div>
+            <div class="es-toc">
+                {% include es-nav.html %}
+            </div>
+        </main>
+    </div>
 </body>
 </html>
