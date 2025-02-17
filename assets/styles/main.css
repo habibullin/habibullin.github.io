@@ -3,7 +3,7 @@ body {
     font-optical-sizing: auto;
     margin: 0;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1,375;
 }
 
 a, a:visited {
@@ -32,8 +32,45 @@ main.es{
     background: #ccc;
 }
 
+
+
+
+
 h1 {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 42px;
+    font-size: 2.5rem; /* 40px */
+    line-height: 1.05;
+    margin: 0 0 1.25rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem; /* 32px */
+    line-height: 1.05;
+    margin: 0 0 1.125rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.75rem; /* 28px */
+    line-height: 1.05;
+    margin: 0 0 1rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 1.2;
+    margin: 0 0 0.875rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.2;
+    margin: 0 0 0.75rem;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 0.625rem;
 }
