@@ -22,6 +22,7 @@ a, a:visited {
 
 main.es{
     display: flex;
+    margin: 0 0 10% 0;
 }
 
 nav{
