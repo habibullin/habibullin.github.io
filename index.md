@@ -18,5 +18,5 @@
 
 ---
 
-[telegram](http://telegram.me/habibullin) · [rxletter@gmail.com](mailto:rxletter@gmail.com)
+[telegram](http://telegram.me/habibullin) · [rxletter@gmail.com](mailto:rxletter@gmail.com) · [Редстандарты](/es)
 
